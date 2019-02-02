@@ -1,0 +1,22 @@
+.reviews {
+  @include flex-row-wraped;
+
+  position: relative;
+  padding-left: 390px;
+  padding-right: 390px;
+  padding-top: 45px;
+  padding-bottom: 50px;
+  background-color: $navi;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -36px;
+    left: calc(50% - 70px);
+    width: 141px;
+    height: 72px;
+    background-image: url('../img/Shape.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+}

@@ -1,0 +1,20 @@
+.page-header {
+  @include flex-row;
+
+  padding-left: 210px;
+  min-height: 102px;
+  border-bottom: 1px solid $white;
+
+  &__logo {
+    @include flex-row-start;
+    align-items: center;
+  }
+
+  &__logo-text {
+    margin-left: 10px;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: captitalize;
+    color: $white;
+  }
+}

@@ -1,0 +1,17 @@
+.review {
+  width: 50%;
+  padding-bottom: 50px;
+
+  &__caption {
+    text-transform: uppercase;
+    color: $white;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  &__text {
+    color: $white;
+    font-weight: 400;
+    font-size: 15px;
+  }
+}

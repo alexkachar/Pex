@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  padding: 23px 61px;
+  color: $white;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+
+  border-radius: 50px;
+  background-color: $purple;
+  border: none;
+
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2),
+              inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+
+}

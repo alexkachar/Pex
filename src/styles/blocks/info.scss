@@ -1,0 +1,23 @@
+.info {
+
+  margin-top: -30px;
+  padding-top: 160px;
+
+  &--pink {
+    @include flex-column;
+    min-height: 540px;
+    background: linear-gradient(to right, $pink-transparent, $pink-transparent),
+    url('../img/forest.jpg') right bottom no-repeat;
+  }
+
+  &__caption--pink {
+    font-size: 35px;
+    font-weight: 200;
+    color: $white;
+  }
+
+  &__text--pink {
+    width: 460px;
+    text-align: center;
+  }
+}

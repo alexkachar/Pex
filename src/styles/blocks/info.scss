@@ -11,13 +11,24 @@
   }
 
   &__caption--pink {
+    margin-bottom: 5px;
     font-size: 35px;
     font-weight: 200;
     color: $white;
   }
 
   &__text--pink {
+    margin-top: 5px;
+    margin-bottom: 40px;
     width: 460px;
     text-align: center;
+    color: $white;
+    font-size: 15px;
+  }
+
+  &--pictured {
+    @include flex-row-start;
+    background-color: $white;
+    padding-right: 210px;
   }
 }

@@ -10,9 +10,24 @@
     url('../img/forest.jpg') right bottom no-repeat;
   }
 
+  &--purple {
+    margin-top: 0;
+    @include flex-column;
+    min-height: 547px;
+    background: linear-gradient(to right, $purple-transparent, $purple-transparent),
+    url('../img/mountains.jpg') right bottom no-repeat;
+  }
+
   &__caption--pink {
     margin-bottom: 5px;
     font-size: 35px;
+    font-weight: 200;
+    color: $white;
+  }
+
+  &__caption--purple {
+    margin-bottom: 5px;
+    font-size: 40px;
     font-weight: 200;
     color: $white;
   }
@@ -24,11 +39,81 @@
     text-align: center;
     color: $white;
     font-size: 15px;
+    font-weight: 400;
+  }
+
+  &__text--purple {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    width: 740px;
+    text-align: center;
+    color: $purple-light;
+    font-size: 20px;
+    font-weight: 400;
   }
 
   &--pictured {
     @include flex-row-start;
     background-color: $white;
+    padding-top: 0;
+  }
+
+  &--pictured--reverse {
+    flex-direction: row-reverse;
+  }
+
+  &__figure {
+    width: 630px;
+    height: 496px;
+    background-color: $gray;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__article--pictured {
+    width: 970px;
+    padding-top: 120px;
+    padding-left: 100px;
     padding-right: 210px;
+  }
+
+  &__article--pictured-reverse {
+    padding-right: 100px;
+    padding-left: 210px;
+  }
+
+  &__caption--black {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: $blue-graish;
+  }
+
+  &__text--black {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $blue-graish;
+  }
+
+  &__text--small {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $blue-graish;
+  }
+
+  &__text--small-purple {
+    font-size: 12px;
+    color: $white;
   }
 }

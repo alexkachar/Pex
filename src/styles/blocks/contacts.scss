@@ -1,0 +1,30 @@
+.contacts {
+
+  padding-top: 70px;
+  padding-left: 210px;
+  padding-right: 990px;
+  padding-bottom: 230px;
+  min-height: 460px;
+  background-color: $pink;
+
+  &__caption {
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 15px;
+    color: $white;
+    line-height: 2.4;
+  }
+
+  &__email {
+    font-weight: 400;
+    font-size: 15px;
+    color: $white;
+    cursor: pointer;
+  }
+}

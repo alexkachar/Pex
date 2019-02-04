@@ -1,0 +1,12 @@
+.page-footer {
+  @include padding-standart;
+  min-height: 360px;
+  margin-top: -20px;
+  padding-top: 40px;
+  background-color: $navi;
+
+  &__text {
+    font-size: 12px;
+    color: $white;
+  }
+}

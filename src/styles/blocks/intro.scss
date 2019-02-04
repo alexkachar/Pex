@@ -2,15 +2,9 @@
 
   @include padding-standart;
 
-  background-color: #392732;
-  min-height: 891px;
-  margin-top: -126px;
+  min-height: 750px;
   margin-bottom: -12px;
   padding-top: 370px;
-
-  background-image: url('../img/mountain.jpg');
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
 
   &__article {
     width: 520px;

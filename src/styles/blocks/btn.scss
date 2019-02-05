@@ -1,21 +1,30 @@
 .btn {
   display: inline-block;
-  padding: 23px 61px;
-  color: $white;
+  padding: 19px 58px;
+  color: #fff;
   font-weight: 700;
   font-size: 18px;
   text-transform: capitalize;
-
-  border-radius: 50px;
-  background-color: $purple;
+  border-radius: 37px;
+  background-color: #8824cd;
   border: none;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+  cursor: pointer;
 
-  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.2),
-              inset 0px 1px 0px 0px rgba(255, 255, 255, 0.4);
+  &:hover {
+    background-color: $white;
+    color: $pink;
+  }
 
   &--white {
     color: $pink;
     background-color: $white;
+    padding: 19px 90px;
+  }
+
+  &--white:hover {
+    background-color: #8824cd;
+    color: #fff;
   }
 
 }

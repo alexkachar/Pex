@@ -2,16 +2,16 @@
 
   @include padding-standart;
 
-  min-height: 750px;
-  padding-top: 370px;
+  min-height: 790px;
+  padding-top: 220px;
 
   &__article {
-    width: 520px;
+    width: 516px;
     text-align: right;
   }
 
   &__caption {
-    margin-bottom: 30px;
+    margin-bottom: 47px;
     text-align: right;
     color: $white;
     font-size: 50px;
@@ -20,6 +20,7 @@
   }
 
   &__text {
+    margin-top: 16px;
     margin-right: 25px;
     color: $white;
     font-weight: 400;

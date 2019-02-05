@@ -1,19 +1,22 @@
 .site-nav {
-  @include flex-row-start;
-  align-items: stretch;
+
+  @include flex-row;
+  align-items: center;
 
   &__link {
-    display: inline-block;
-    padding-top: 25px;
-    vertical-align: middle;
     height: 99px;
-    margin-right: 50px;
+    margin-right: 55px;
+    padding-top: 41px;
     text-decoration: none;
     color: $white;
-    font-weight: 700;
+    font-weight: 400;
     font-family: $font;
     font-size: 13px;
     cursor: pointer;
+  }
+
+  &__link:last-of-type {
+    margin-right: 0;
   }
 
   &__link:hover {

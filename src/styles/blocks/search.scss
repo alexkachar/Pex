@@ -3,6 +3,7 @@
   &__fieldset {
     position: relative;
     border: none;
+    padding-top: 14px;
   }
 
   &__input {
@@ -11,11 +12,13 @@
     width: 220px;
     border: none;
     padding-left: 25px;
+    margin-right: 18px;
+    font-size: 13px;
   }
 
   &__submit {
-    top: 20px;
-    left: 200px;
+    top: 28px;
+    left: 204px;
     position: absolute;
     width: 20px;
     height: 20px;
@@ -26,5 +29,6 @@
     background-repeat: no-repeat;
     background-color: $white;
     border: none;
+    cursor: pointer;
   }
 }

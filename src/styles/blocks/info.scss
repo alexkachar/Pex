@@ -4,7 +4,8 @@
 
   &--pink {
     @include flex-column;
-    min-height: 540px;
+    min-height: 536px;
+    padding-top: 114px;
     background: linear-gradient(to right, $pink-transparent, $pink-transparent),
     url('../img/forest.jpg') right bottom no-repeat;
   }
@@ -12,7 +13,8 @@
   &--purple {
     margin-top: 0;
     @include flex-column;
-    min-height: 547px;
+    padding-top: 143px;
+    min-height: 550px;
     background: linear-gradient(to right, $purple-transparent, $purple-transparent),
     url('../img/mountains.jpg') right bottom no-repeat;
   }
@@ -22,7 +24,7 @@
     margin-top: 0;
     padding-left: 210px;
     padding-right: 870px;
-    padding-top: 360px;
+    padding-top: 348px;
     background: linear-gradient(to top, $gray-darkish, $white-transparent, $white-transparent),
     url('../img/food.jpg') right bottom no-repeat;
 
@@ -36,15 +38,15 @@
   }
 
   &__caption--purple {
-    margin-bottom: 5px;
-    font-size: 40px;
+    margin-bottom: 21px;
+    font-size: 38px;
     font-weight: 200;
     color: $white;
   }
 
   &__caption--photo {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 8px 27px;
     border: 1px solid $white;
     border-radius: 20px;
     color: $white;
@@ -53,18 +55,19 @@
   }
 
   &__text--pink {
-    margin-top: 5px;
-    margin-bottom: 40px;
+    margin-top: 4px;
+    margin-bottom: 28px;
     width: 460px;
     text-align: center;
-    color: $white;
+    color: #fff;
     font-size: 15px;
     font-weight: 400;
+    line-height: 1.8;
   }
 
   &__text--purple {
     margin-top: 5px;
-    margin-bottom: 40px;
+    margin-bottom: 34px;
     width: 740px;
     text-align: center;
     color: $purple-light;
@@ -90,11 +93,16 @@
     padding: 0;
   }
 
+  &__figure--reverse {
+    width: 670px;
+    height: 520px;
+  }
+
   &__figure--photo {
     width: 45px;
     height: 45px;
     padding: 0;
-    margin-right: 20px;
+    margin-right: 17px;
     background-color: none;
   }
 
@@ -108,27 +116,29 @@
 
   &__article--pictured {
     width: 970px;
-    padding-top: 120px;
+    padding-top: 88px;
     padding-left: 100px;
     padding-right: 210px;
   }
 
   &__article--pictured-reverse {
+    padding-top: 109px;
     padding-right: 100px;
     padding-left: 210px;
   }
 
   &__caption--black {
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     font-size: 15px;
     font-weight: 700;
     color: $blue-graish;
+    text-transform: uppercase;
   }
 
   &__text--black {
     margin-top: 2px;
-    margin-bottom: 2px;
+    margin-bottom: 29px;
     font-size: 19px;
     font-weight: 400;
     line-height: 1.6;
@@ -151,7 +161,7 @@
 
   &__text--photo {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     font-size: 40px;
     color: $white;
     line-height: 1.25;
